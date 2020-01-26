@@ -1,0 +1,49 @@
+.contact-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  h1{
+    color: $clr2;
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  h2{
+    margin: 5px;
+  }
+  hr.user-name-line {
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  border-left: black;
+  border-right: black;
+  }
+  .add-contact-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 3.5rem;
+  }
+  .btns-nav-container{
+    width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  .contact-page{
+    padding: 15px 30px;
+  .btns-nav-container{
+    width: 100%;
+    justify-content: flex-end;
+    position: sticky;
+    top:0;
+    left:0;
+    padding: 0;
+    .link{
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  }
+}
+

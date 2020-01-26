@@ -1,0 +1,39 @@
+.contact-preview{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    color: $clr2;
+    background-color: rgba(255, 171, 61, 0.116);
+    margin-bottom: 10px; 
+    img{
+        height: 80px;
+    }
+    .contact-details{
+        margin-left: 10%;
+        .name{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        .phone{
+            font-size: 1.2rem;
+            color: $clr3;
+        }
+    }
+}
+@media (max-width: 760px) {
+    .contact-preview{
+        padding: 10px;
+        img{
+            height: 60px;
+        }
+        .contact-details{
+            .name{
+                font-size: 1.5rem;
+            }
+            .phone{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

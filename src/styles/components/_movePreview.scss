@@ -1,0 +1,50 @@
+.move-preview{
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 3px 20px;
+    margin-bottom: 15px;  
+    div{
+        margin: 5px 0;
+    }
+    color: $clr2;
+    .trans-from{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .stat{
+        font-size: 1.2rem;
+        font-weight: 600;
+        .stat-opt{
+            color: rgb(78, 155, 243);
+        }
+    }
+    .trans-amount {
+        color:greenyellow;
+        font-weight: 600;
+        font-size: 1.6rem;
+        .usd-amount{
+            color:$clr3
+        }
+    }
+    .sent-at{
+        color:$clr3;
+        font-weight: 600;
+        font-size: 1.2rem;
+
+    }
+}
+@media (max-width: 760px) {
+    .move-preview{
+        .trans-from{
+            font-size: 1.4rem;
+        }
+        .stat{
+            font-size: 1rem;
+        }
+        .trans-amount {
+            font-size: 1.2rem;
+        }
+        .sent-at{
+            font-size: 1.0rem;
+        }
+    }
+}

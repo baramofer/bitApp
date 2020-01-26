@@ -1,0 +1,71 @@
+.contact-edit-container{
+  color:$clr2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3, h4{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    padding: 15px 20px;
+    border-radius: 7px;
+    background-color: rgba(56, 56, 82, 0.658);
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    width: 85%;
+    margin: 5px auto;
+    font-size: 1.4rem;
+    color: $clr2;
+}
+  img{
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+  }
+  h1{
+    color: rgb(235, 137, 10);
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 15px;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+  .btns-nav-container{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.692);
+    .link{
+      color: white;
+      font-size: 1.2rem;
+    }
+  }
+  .btns-edit-container{
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    button{
+      color:white;
+      border: 1px solid black;
+      border-radius: 7px;
+      background-color: rgb(235, 137, 10);
+      font-weight: 600;
+      width: 80px;
+      height: 40px;
+      margin: 5px 0;
+    }
+  }
+}
+@media (max-width: 760px) {
+  
+}

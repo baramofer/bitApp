@@ -1,0 +1,17 @@
+.moves-list-container{
+    padding: 0;
+    .last-moves{
+        color: $clr2;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin: 20px;
+    }
+    li{
+        list-style: none;
+    }
+    .no-moves-msg{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
