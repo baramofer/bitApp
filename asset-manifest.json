@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "https://baramofer.github.io/bitApp/static/css/main.bcf3d8e3.chunk.css",
+    "main.js": "https://baramofer.github.io/bitApp/static/js/main.f38f2a14.chunk.js",
+    "main.js.map": "https://baramofer.github.io/bitApp/static/js/main.f38f2a14.chunk.js.map",
+    "runtime-main.js": "https://baramofer.github.io/bitApp/static/js/runtime-main.82ce9bfb.js",
+    "runtime-main.js.map": "https://baramofer.github.io/bitApp/static/js/runtime-main.82ce9bfb.js.map",
+    "static/css/2.400f043a.chunk.css": "https://baramofer.github.io/bitApp/static/css/2.400f043a.chunk.css",
+    "static/js/2.2087196d.chunk.js": "https://baramofer.github.io/bitApp/static/js/2.2087196d.chunk.js",
+    "static/js/2.2087196d.chunk.js.map": "https://baramofer.github.io/bitApp/static/js/2.2087196d.chunk.js.map",
+    "index.html": "https://baramofer.github.io/bitApp/index.html",
+    "precache-manifest.7c76ce16b4c6a06c4f8c68c4e4176ffa.js": "https://baramofer.github.io/bitApp/precache-manifest.7c76ce16b4c6a06c4f8c68c4e4176ffa.js",
+    "service-worker.js": "https://baramofer.github.io/bitApp/service-worker.js",
+    "static/css/2.400f043a.chunk.css.map": "https://baramofer.github.io/bitApp/static/css/2.400f043a.chunk.css.map",
+    "static/css/main.bcf3d8e3.chunk.css.map": "https://baramofer.github.io/bitApp/static/css/main.bcf3d8e3.chunk.css.map",
+    "static/js/2.2087196d.chunk.js.LICENSE": "https://baramofer.github.io/bitApp/static/js/2.2087196d.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "https://baramofer.github.io/bitApp/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ce9bfb.js",
+    "static/css/2.400f043a.chunk.css",
+    "static/js/2.2087196d.chunk.js",
+    "static/css/main.bcf3d8e3.chunk.css",
+    "static/js/main.f38f2a14.chunk.js"
+  ]
+}
